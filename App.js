@@ -19,6 +19,7 @@ componentDidMount = async() => {
   render() {
     if(this.state.isLoading){
       return <Loading />
+      // return <Loading />
     }
     else {
       return <MainPage />
